@@ -1,19 +1,4 @@
-# 🎈 Blank app template
+## Group 119 assignment code
+The backend code needs the finetuned model folder and fiass db and index files to run the rag_ft_be.py
 
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Front end is deployed to https://group119-bits--g5qzi8p1kdc.streamlit.app/
