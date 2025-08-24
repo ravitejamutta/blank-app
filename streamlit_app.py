@@ -47,6 +47,7 @@ def main():
                     st.markdown(f"**Doc {i+1}**: `{meta.get('filename', '')}`\n\n{text[:150]}...")
 
     # Show chat messages
+    
     for role, msg in st.session_state.messages:
         if role == "user":
             st.markdown(f"**🧑 You:** {msg}")
