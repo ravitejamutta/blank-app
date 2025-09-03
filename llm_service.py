@@ -3,8 +3,8 @@ import requests
 class LLMService:
     def __init__(self):
         self.headers = {"Content-Type": "application/json"}
-        self.rag_url = "https://stma-of-dev.cs.ms.hcvpc.io/convai119/rag"
-        self.finetuned_url = "https://stma-of-dev.cs.ms.hcvpc.io/convai119/finetuned"
+        self.rag_url = ""
+        self.finetuned_url = ""
 
     def get_response(self, query: str, model_type: str):
         if model_type == "RAG":
